@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: #111;
+    padding: 10px;
+}
+.logo{
+    position: fixed;
+    left: 20px;
+    height: 20px;
+    
+}
+.avatar{
+    position: fixed;
+    right: 20px;
+    height: 25px;
+    margin-bottom: 10px;
+}
